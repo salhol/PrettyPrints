@@ -31,10 +31,15 @@ pip install PrettyPrints
 
 ```python
 from PrettyPrints import *
+print(TW())
 Dashed()
+Dotted()
 Equal()
+Squared()
+Spacing()
 Spacing("*")
 Centered("Text to center")
+Centered("Text to center with dots",".")
 ```
 ![Screenshot of example](https://github.com/salhol/PrettyPrints/blob/main/Example.png)
 *Please note that I suck at coding, therefore, continue at your own risk.*

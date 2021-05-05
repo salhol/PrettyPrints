@@ -45,7 +45,7 @@ def Squared(TW=TW()):
     """
     print('#'*TW)
 
-def Spacing(symbol='X',TW=TW()):
+def Spacing(symbol='X', TW=TW()):
     """Print a spacing bar from given symbol.
 
     Args:
@@ -54,11 +54,12 @@ def Spacing(symbol='X',TW=TW()):
     """
     print(symbol*TW)
 
-def Centered(string, TW=TW()):
+def Centered(string, symbol="", TW=TW()):
     """Print centered text string.
 
     Args:
         string (str): String to be centered.
+        symbol (str, optional): Symbol to use to center with. Defaults to whitespace.
         TW (int, optional): Specify center width. Defaults to TW().
     """
-    print(f"{string:^{TW}}")
+    print(f"{string:{symbol}^{TW}}")
