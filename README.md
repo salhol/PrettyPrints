@@ -41,5 +41,6 @@ Spacing("*")
 Centered("Text to center")
 Centered("Text to center with dots",".")
 ```
-![Screenshot of example](https://github.com/salhol/PrettyPrints/blob/main/Example.png)
-*Please note that I suck at coding, therefore, continue at your own risk.*
+![Screenshot of example](https://github.com/salhol/PrettyPrints/blob/main/Example.png)  
+---  
+<br>*Please note that I suck at coding, therefore, continue at your own risk.*
